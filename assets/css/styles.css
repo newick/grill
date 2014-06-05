@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /*
 Projet: 
-Author: 
-Version: 
-Date: 
+Author: Erick Gardin
+Version: 1.0
+Date: 2014-06-05
 */
 
 /* === Ordre des priorités === */
@@ -22,7 +22,7 @@ font*/
 	box-sizing: border-box;
 }
 
-/* === Utiles === */
+/* === Useful === */
 .clearfix:after{
 	content: ".";
 	display: block;
@@ -40,3 +40,32 @@ html[xmlns].clearfix{
 *.clearfix{
 	height: 1%;
 }
+/* === /Useful === */
+
+/* === Common === */
+h1, .h1 {
+	
+}
+h2, .h2 {
+
+}
+h3, .h3 {
+
+}
+h4, .h4 {
+
+}
+h5, .h5 {
+
+}
+/* === /Common === */
+
+
+/*=== Header === */
+nav {
+	
+}
+/*=== /Header === */
+
+/*=== Footer === */
+/*=== /Footer === */
