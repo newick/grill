@@ -147,27 +147,3 @@ Monospace Text wrapped in "pre" tags:
     * List Item 3.3
 * List Item 4
 
-## Definition List
-
-<dl>
-  <dt>Definition Term 1</dt>
-  <dd>Definition Description 1</dd>
-  <dt>Definition Term 2</dt>
-  <dd>Definition Description 2</dd>
-</dl>
-
-* * *
-
-# Tables
-
-| Table Header 1 | Table Header 2 | Table Header 3 |
-| -------------- | -------------- | -------------- |
-| Division 1     | Division 2     | Division 3     |
-| Division 1     | Division 2     | Division 3     |
-| Division 1     | Division 2     | Division 3     |
-
-* * *
-
-# Media and Form Elements
-
-The remaining sections contain elements that cannot be represented in markdown. Please consult [the HTML version](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see these elements.
