@@ -70,21 +70,11 @@ This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscin
 
 The [a element](#) and [external a element](http://example.com) examples
 
-The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples
-
-The <acronym title="A Cowboy Ran One New York Marathon">ACRONYM</acronym> element example
-
 The **b element** example
-
-The <cite>cite element</cite> example
 
 The `code element` example
 
-The <data value="3967381398">data element</data> example
-
 The ~~del element~~ example
-
-The <dfn>dfn element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples
 
 The _em element_ example
 
@@ -94,8 +84,6 @@ The <ins>ins element</ins> example
 
 The <kbd>kbd element</kbd> example
 
-The <mark>mark element</mark> example
-
 The <q>q element</q> example
 
 The <q>q element <q>inside</q> a q element</q> example
@@ -104,20 +92,11 @@ The <s>s element</s> example
 
 The <samp>samp element</samp> example
 
-The <small>small element</small> example
-
-The <span>span element</span> example
-
 The **strong element** example
 
 The <sub>sub element</sub> example
 
 The <sup>sup element</sup> example
-
-The <time datetime="2005-05-15 19:00">time element</time> example
-
-
-The <u>u element</u> example
 
 The <var>var element</var> example
 
