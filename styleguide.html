@@ -1,131 +1,140 @@
 <!doctype html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title> </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/css/normalize.css" media="screen">
-        <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  <head>
+    <meta charset="UTF-8">
+    <title>Styleguide</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
-    </head> 
-    <body role="document">
-        <header id="header" role="banner">
-            <nav id="main-nav" role="navigation">
-            </nav>
-        </header>
-        <main id="main" role="main">
-            <section class="content">
-                <h1></h1>
-                <h2></h2>
-                <h3></h3>
-                <h4></h4>
-                <p></p>
-                <a href=""></a>
-                <a href="" class="internal"></a>
-                <a href="" class="external"></a>
-                <a href="    " class="pdf"></a>
+  </head> 
+  <body role="document">
+    <header id="header" role="banner">
+      <nav id="main-nav" role="navigation">
+      </nav>
+    </header>
+    <main id="main" role="main">
+      <section class="container">
+        <article>
+          <h1>Title h1</h1>
+          <h2>Title h2</h2>
+          <h3>Title h3</h3>
+          <h4>Title h4</h4>
+          <h4>Title h5</h4>
+        </article>
+        <article>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eligendi molestias quos, repudiandae architecto, explicabo, autem animi commodi sequi earum ullam, quae quo cupiditate asperiores vitae deleniti consectetur voluptatum temporibus.</p>
+        </article>
+        <article>
+          <a href="">Link</a>
+          <a href="" class="internal">Link internal</a>
+          <a href="" class="external">Link external</a>
+          <a href="" class="pdf">Link with PDF icon</a>
 
-                <ul>
-                    <li>Liste</li>
-                    <li>Liste</li>
-                    <li>
-                        Liste
-                        <ul>
-                            <li>Liste</li>
-                            <li>Liste</li>
-                            <li>Liste</li>
-                        </ul>
-                    </li>
-                    <li>Liste</li>
-                    <li>Liste</li>
-                    <li>Liste</li>
-                </ul>
+          <a href="" class="btn">Call to action</a>
+          <input type="button" value="Call to action">
+        </article>
+        <article>
+          <ul>
+            <li>Liste</li>
+            <li>Liste</li>
+            <li>Liste
+              <ul>
+                <li>Liste</li>
+                <li>Liste</li>
+                <li>Liste</li>
+              </ul>
+            </li>
+            <li>Liste</li>
+            <li>Liste</li>
+            <li>Liste</li>
+          </ul>
 
-                <ol>
-                    <li>item 01</li>
-                    <li>item 02</li>
-                    <li>item 03</li>
-                    <li>item 04</li>
-                </ol>
+          <ol>
+            <li>item 01</li>
+            <li>item 02</li>
+            <li>item 03</li>
+            <li>item 04</li>
+          </ol>
+        </article>
+        <article>
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet impedit excepturi neque quaerat, ducimus. Distinctio error itaque, adipisci, perferendis fugit mollitia modi, ad, dignissimos sint eos in nemo non unde.
+            <cite>Jean Michel Lorem</cite>
+          </blockquote>
 
-                <blockquote>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet impedit excepturi neque quaerat, ducimus. Distinctio error itaque, adipisci, perferendis fugit mollitia modi, ad, dignissimos sint eos in nemo non unde.
-                    <cite>Jean Michel Lorem</cite>
-                </blockquote>
+          <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio in quisquam id consequatur libero sed, quod repudiandae accusamus repellendus!</q>
+        </article>
+        <article>
+          <form action="">
+            <div class="">
+              <label for="">Label</label>
+              <input type="text" value="input text">
+            </div>
+            <div class="error">
+              <label for="">Label</label>
+              <input type="text" value="input text">
+            </div>
+            <div class="success">
+              <label for="">Label</label>
+              <input type="text" value="input text">
+            </div>
+            <div class="">
+              <label for="">Label</label>
+              <textarea name="" id="" cols="30" rows="10">
+texarea
+              </textarea>
+            </div>
+            <div class="">
+              <label for=""></label>
+              <select name="" id="">
+                <option value="">select option</option>
+                <option value="">select option</option>
+              </select>
+            </div>
+            <div class="">
+              <input type="radio" name="group1" id="radio1" value="1"><label for="radio1">1</label>
+              <input type="radio" name="group1" id="radio2" value="2"><label for="radio2">2</label>
+              <input type="radio" name="group1" id="radio3" value="3"><label for="radio3">3</label>
+            </div>
+            <div class="">
+              <input type="checkbox" name="checkbox1" id="checkbox1" value=""><label for="checkbox1">1</label>
+              <input type="checkbox" name="checkbox2" id="checkbox2" value=""><label for="checkbox2">2</label>
+              <input type="checkbox" name="checkbox3" id="checkbox3" value=""><label for="checkbox3">3</label>
+            </div>
+          </form>
+        </article>
+        <article>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody><tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+    </main>
+    <footer id="footer" role="contentinfo">
 
-                <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio in quisquam id consequatur libero sed, quod repudiandae accusamus repellendus!</q>
+    </footer>
 
-                <a href="" class="btn">Call to action</a>
-                <input type="button" value="Call to action">
-
-                <form action="">
-                    <div class="">
-                        <label for=""></label>
-                        <input type="text">
-                    </div>
-                    <div class="error">
-                        <label for=""></label>
-                        <input type="text">
-                    </div>
-                    <div class="success">
-                        <label for=""></label>
-                        <input type="text">
-                    </div>
-                    <div class="">
-                        <label for=""></label>
-                        <textarea name="" id="" cols="30" rows="10">
-
-                        </textarea>
-                    </div>
-                    <div class="">
-                        <label for=""></label>
-                        <select name="" id="">
-                            <option value="">select option</option>
-                            <option value="">select option</option>
-                        </select>
-                    </div>
-                    <div class="">
-                        <input type="radio" name="group1" id="radio1" value="1"><label for="radio1">1</label>
-                        <input type="radio" name="group1" id="radio2" value="2"><label for="radio2">2</label>
-                        <input type="radio" name="group1" id="radio3" value="3"><label for="radio3">3</label>
-                    </div>
-                    <div class="">
-                        <input type="checkbox" name="checkbox1" id="checkbox1" value=""><label for="checkbox1">1</label>
-                        <input type="checkbox" name="checkbox2" id="checkbox2" value=""><label for="checkbox2">2</label>
-                        <input type="checkbox" name="checkbox3" id="checkbox3" value=""><label for="checkbox3">3</label>
-                    </div>
-                </form>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody><tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </main>
-        <footer id="footer" role="contentinfo">
-
-        </footer>
-
-        <script src="assets/js/init.js"></script>
-    </body>
+    <script src="assets/js/init.js"></script>
+  </body>
 </html>

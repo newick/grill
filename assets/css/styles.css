@@ -11,14 +11,12 @@ body {
   margin: 0; }
 
 /* --- Lists --- */
-ol,
-ul {
-  list-style: none; }
-
 /* --- Forms --- */
 input,
-button,
-select {
+textarea,
+select,
+button {
+  font-size: 1em;
   vertical-align: middle; }
 
 textarea {
@@ -38,6 +36,7 @@ nav a {
 /*Font-face declaration example*/
 html {
   font-size: 62.5%;
+  /* 10px */
   font-size: calc(1em * 0.625);
   /* fix */ }
 
@@ -47,7 +46,44 @@ body {
   line-height: 1.25; }
 
 /* --- Layout --- */
+.container {
+  margin: 0 auto;
+  width: 980px; }
+
+@media (max-width: 980px) {
+  .container {
+    padding: 0 20px;
+    width: 100%; } }
 /* --- Components --- */
+ol,
+ul {
+  margin: 20px 0;
+  padding-left: 0; }
+
+ul {
+  list-style-type: none; }
+  ul li:before {
+    content: '';
+    margin-right: 10px; }
+  ul ul {
+    margin-left: 20px; }
+
+/* Labels */
+label {
+  display: block; }
+
+/* Inputs */
+input[type="text"],
+textarea,
+select {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc; }
+
+[type="radio"] + label,
+[type="checkbox"] + label {
+  display: inline-block; }
+
 /* --- Pages --- */
 /* --- Vendors --- */
 /*@import "vendors/"*/

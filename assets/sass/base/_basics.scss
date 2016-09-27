@@ -11,31 +11,30 @@ body {
 }
 
 /* --- Lists --- */
-ol,
-ul {
-    list-style: none;
-}
+
 
 /* --- Forms --- */
 input,
-button,
-select {
-    vertical-align: middle;
+textarea,
+select,
+button {
+  font-size: 1em;
+  vertical-align: middle;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 //Default cursor for buttons
 input[type="submit"],
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* --- Nav --- */
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 nav a {
   text-decoration: none;
