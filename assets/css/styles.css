@@ -35,6 +35,17 @@ nav ul {
 nav a {
   text-decoration: none; }
 
+/*Font-face declaration example*/
+html {
+  font-size: 62.5%;
+  font-size: calc(1em * 0.625);
+  /* fix */ }
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  line-height: 1.25; }
+
 /* --- Layout --- */
 /* --- Components --- */
 /* --- Pages --- */
