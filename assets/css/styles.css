@@ -1,71 +1,44 @@
-@charset "UTF-8";
 /*
-Projet: 
-Author: Erick Gardin
-Version: 1.0
-Date: 2014-06-05
+Comment everything not useful for the current project
 */
+/* --- Base --- */
+/* --- * --- */
+* {
+  box-sizing: border-box; }
 
-/* === Ordre des priorités === */
-/*position / display
-top / height
-largeur / hauteur
-margin / padding
-border
-background
-font*/
+/* --- Body --- */
+body {
+  margin: 0; }
 
-/* === Base === */
-*, *:before, *:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
+/* --- Lists --- */
+ol,
+ul {
+  list-style: none; }
 
-/* === Useful === */
-.clearfix:after{
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
-}
-.clearfix{
-	display: block;
-}
-html[xmlns].clearfix{
-	display: block;
-}
-*.clearfix{
-	height: 1%;
-}
-/* === /Useful === */
+/* --- Forms --- */
+input,
+button,
+select {
+  vertical-align: middle; }
 
-/* === Common === */
-h1, .h1 {
-	
-}
-h2, .h2 {
+textarea {
+  resize: vertical; }
 
-}
-h3, .h3 {
+input[type="submit"],
+button {
+  cursor: pointer; }
 
-}
-h4, .h4 {
+/* --- Nav --- */
+nav ul {
+  list-style: none; }
 
-}
-h5, .h5 {
+nav a {
+  text-decoration: none; }
 
-}
-/* === /Common === */
+/* --- Layout --- */
+/* --- Components --- */
+/* --- Pages --- */
+/* --- Vendors --- */
+/*@import "vendors/"*/
 
-
-/*=== Header === */
-nav {
-	
-}
-/*=== /Header === */
-
-/*=== Footer === */
-/*=== /Footer === */
+/*# sourceMappingURL=styles.css.map */

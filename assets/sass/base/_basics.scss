@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* --- * --- */
+* {
+  box-sizing: border-box;
+}
+
+/* --- Body --- */
+body {
+  margin: 0;
+}
+
+/* --- Lists --- */
+ol,
+ul {
+    list-style: none;
+}
+
+/* --- Forms --- */
+input,
+button,
+select {
+    vertical-align: middle;
+}
+
+textarea {
+    resize: vertical;
+}
+
+//Default cursor for buttons
+input[type="submit"],
+button {
+    cursor: pointer;
+}
+
+/* --- Nav --- */
+nav ul {
+    list-style: none;
+}
+nav a {
+  text-decoration: none;
+}
