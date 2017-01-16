@@ -8,30 +8,8 @@ Comment everything not useful for the current project
 
 /* --- Body --- */
 body {
-  margin: 0; }
-
-/* --- Lists --- */
-/* --- Forms --- */
-input,
-textarea,
-select,
-button {
-  font-size: 1em;
-  vertical-align: middle; }
-
-textarea {
-  resize: vertical; }
-
-input[type="submit"],
-button {
-  cursor: pointer; }
-
-/* --- Nav --- */
-nav ul {
-  list-style: none; }
-
-nav a {
-  text-decoration: none; }
+  margin: 0;
+  background-color: #fff; }
 
 /*Font-face declaration example*/
 html {
@@ -41,20 +19,24 @@ html {
   /* fix */ }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "", Arial, sans-serif;
   font-size: 2em;
   line-height: 1.25; }
 
 /* --- Layout --- */
 .container {
   margin: 0 auto;
-  width: 980px; }
+  width: "980px"; }
 
 @media (max-width: 980px) {
   .container {
     padding: 0 20px;
     width: 100%; } }
 /* --- Components --- */
+/* --- Nav --- */
+nav a {
+  text-decoration: none; }
+
 ol,
 ul {
   margin: 20px 0;
@@ -68,6 +50,14 @@ ul {
   ul ul {
     margin-left: 20px; }
 
+/* Forms */
+input,
+textarea,
+select,
+button {
+  font-size: 1em;
+  vertical-align: middle; }
+
 /* Labels */
 label {
   display: block; }
@@ -78,11 +68,22 @@ textarea,
 select {
   padding: 10px;
   width: 100%;
-  border: 1px solid #ccc; }
+  border: 1px solid ""; }
 
 [type="radio"] + label,
 [type="checkbox"] + label {
   display: inline-block; }
+
+/* Textarea */
+textarea {
+  resize: vertical; }
+
+input[type="submit"],
+button {
+  cursor: pointer; }
+
+button {
+  cursor: pointer; }
 
 /* --- Pages --- */
 /* --- Vendors --- */

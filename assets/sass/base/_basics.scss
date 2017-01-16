@@ -8,34 +8,5 @@
 /* --- Body --- */
 body {
   margin: 0;
-}
-
-/* --- Lists --- */
-
-
-/* --- Forms --- */
-input,
-textarea,
-select,
-button {
-  font-size: 1em;
-  vertical-align: middle;
-}
-
-textarea {
-  resize: vertical;
-}
-
-//Default cursor for buttons
-input[type="submit"],
-button {
-  cursor: pointer;
-}
-
-/* --- Nav --- */
-nav ul {
-  list-style: none;
-}
-nav a {
-  text-decoration: none;
+  background-color: #fff;
 }

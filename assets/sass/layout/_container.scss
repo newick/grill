@@ -2,10 +2,10 @@
 
 .container {
   margin: 0 auto;
-  width: 980px;
+  width: $desktop-width;
 }
 
-@media (max-width: 980px) {
+@media (max-width: $desktop-width) {
   .container {
     padding: 0 20px;
     width: 100%;  

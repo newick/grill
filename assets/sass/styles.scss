@@ -5,6 +5,7 @@ Comment everything not useful for the current project
 */
 
 /* --- Base --- */
+@import "base/variables";
 @import "base/basics";
 @import "base/fonts";
 
@@ -20,6 +21,8 @@ Comment everything not useful for the current project
 @import "components/headings";
 @import "components/lists";
 @import "components/forms";
+@import "components/buttons";
+@import "components/links";
 
 /* --- Pages --- */
 @import "pages/home";
